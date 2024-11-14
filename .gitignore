@@ -1,0 +1,4 @@
+
+# Backend ignore
+/network-visualizer-backend/node_modules
+/network-visualizer-backend/.env
