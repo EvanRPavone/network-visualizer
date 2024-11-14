@@ -2,3 +2,47 @@
 # Backend ignore
 /network-visualizer-backend/node_modules
 /network-visualizer-backend/.env
+
+# Frontend Ignore
+
+# DEFAULT GITIGNORE
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Variables
+.env
+
+# Logs
+logs/
+*.log
+pids/
+*.pid
+*.pid.lock
+
+# Runtime data
+tmp/
+temp/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Optional: Frontend build artifacts (if you’re using a build system like React or Angular)
+# Uncomment if you don't want to include built frontend files in the repository
+# network-visualizer-frontend/build/
+# network-visualizer-frontend/dist/
+
+# Optional: Backend build artifacts (if using TypeScript or similar)
+# network-visualizer-backend/dist/
+
+# Coverage reports
+coverage/
+
+# Ignore IDE and editor folders/files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
