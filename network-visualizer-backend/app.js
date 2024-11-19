@@ -14,7 +14,7 @@ require('dotenv').config();
 
 // Middleware
 app.use(express.json()); // Parse JSON requests
-app.use(cors()); // Enable Cross-Origin Resource Sharing
+app.use(cors({ origin: 'http://localhost:3000' })); // Enable Cross-Origin Resource Sharing
 app.use(helmet()); // Enhance security
 app.use(morgan('dev')); // Log HTTP requests
 
